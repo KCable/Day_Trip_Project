@@ -20,9 +20,15 @@ random_entertainment = random.choice(entertainment)
 print(random_entertainment)
 
 # def determine_satisfaction(current_trip, trip_options):
-# current_trip = input("Are you satisfied with the current selections? Y / N "):
-#     if != Y print("Which item would you like to change? destination, restaurant, mode of transport or entertainment?")
-#     elif == Y 
+
+
+current_trip = input("Are you satisfied with the current selections? Yes/No? ")
+if current_trip != "Yes":
+   print("Which item would you like to change? destination, restaurant, mode of transport or entertainment?")
+else:
+   print("Enjoy your trip!")
+
+# trip_options = re_select
 
 
 
@@ -35,4 +41,3 @@ print(random_entertainment)
 
 
 # run_day_trip_generator()
-
